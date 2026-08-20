@@ -1,4 +1,4 @@
-## 👋 Hi, I'm Rohan (he/him)
+## 👋 Hi, I'm Rohan
 
 I like working out what's actually going on in a dataset, and explaining it to people who need to decide something.
 
