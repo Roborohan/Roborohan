@@ -2,7 +2,7 @@
 
 I like working out what's actually going on in a dataset, and explaining it to people who need to decide something.
 
-I'm currently on the **Digital Futures Frontier Academy** as a Data & AI Consultant, working towards the PCAD and GAIL certifications. Before that I spent a year and a half in IT support and release management, and before that I read Computer Science at the University of Birmingham.
+I'm currently on the **Digital Futures Frontier Academy** as a Data & AI Consultant, working towards the PCAD (Certified Associate Data Analyst with Python) and Google Cloud's Generative AI Leader certifications. Before that I spent a year and a half in IT support and release management, and before that I read Computer Science at the University of Birmingham.
 
 Most of what's here is project work, in the order I built it.
 
@@ -11,7 +11,7 @@ Most of what's here is project work, in the order I built it.
 ### 🌍 WHO Life Expectancy — modelling under a privacy constraint
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![statsmodels](https://img.shields.io/badge/statsmodels-4051B5?style=flat)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 *August 2026 · [Roborohan/WHO-Life-Expectancy](https://github.com/Roborohan/WHO-Life-Expectancy)*
