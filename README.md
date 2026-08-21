@@ -104,4 +104,4 @@ Films and TV, reading, music, racket sports, and travel. I write structured revi
 
 ### Get in touch
 
-[LinkedIn](https://www.linkedin.com/in/rohan-sharma2001/) · rohan.sharma21@icloud.com
+[LinkedIn](https://www.linkedin.com/in/rohan-sharma2001/)
