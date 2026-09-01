@@ -8,6 +8,24 @@ Most of what's here is project work, in the order I built it.
 
 ---
 
+### 📞 Swan Teleco — churn prediction and customer risk scoring
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+
+*September 2026 · [Bhumgara/df_swan_consulting](https://github.com/Bhumgara/df_swan_consulting)*
+
+A churn model for a telecoms provider, built on a quarter of single customer view data covering 7,043 customers. It scores every remaining customer on their likelihood of leaving, ranks them for a targeted mailer campaign, and quantifies which products and contract types actually drive churn.
+
+Logistic regression over 17 attributes, cross-validated at 0.856 AUC, chosen over a gradient boosted tree because the coefficients read directly as odds ratios — which is what turns a model into a recommendation about where to spend money. The outputs are a ranked list of the 500 highest-risk customers and a banded risk register for all 5,174, sorted for lookup so a service agent can find someone mid-call.
+
+The most useful thing it surfaced was that price isn't the driver. Average revenue rises across the risk bands, which looks like high-value customers leaving — until you split by internet service and find that within fibre, the riskiest customers pay $85 a month and the safest $101. Fibre costs twice what DSL does and fills the high-risk bands, so the apparent price effect was really the product underneath it.
+
+I built the model and both customer lists, and ran the driver analysis behind the product recommendations.
+
+---
+
 ### 🌍 WHO Life Expectancy — modelling under a privacy constraint
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
