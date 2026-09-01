@@ -2,7 +2,7 @@
 
 I like working out what's actually going on in a dataset, and explaining it to people who need to decide something.
 
-I'm currently on the **Digital Futures Frontier Academy** as a Data & AI Consultant, working towards the PCAD (Certified Associate Data Analyst with Python) and Google Cloud's Generative AI Leader certifications. Before that I spent a year and a half in IT support and release management, and before that I read Computer Science at the University of Birmingham.
+I'm currently on the **Digital Futures Frontier Academy** as a Data & AI Consultant, working towards the PCAD (Certified Associate Data Analyst with Python) and Google Cloud's Generative AI Leader certifications. Before that I spent a year and a half in IT support and QA Testing, and before that I read Computer Science at the University of Birmingham.
 
 Most of what's here is project work, in the order I built it.
 
