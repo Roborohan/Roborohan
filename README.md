@@ -1,6 +1,6 @@
 ## 👋 Hi, I'm Rohan
 
-I'm currently on the **Digital Futures Frontier Academy** as a Data & AI Consultant, working towards the PCAD (Certified Associate Data Analyst with Python) and Google Cloud's Generative AI Leader certifications. Before that I spent a year and a half in IT support and QA Testing, and before that I read Computer Science at the University of Birmingham.
+I'm currently on the **Digital Futures Frontier Academy** as a Data & AI Consultant, working towards the Certified Associate Data Analyst with Python (PCAD) after having achieved the Google Cloud's Generative AI Leader (GAIL) certification. Before that I spent a year and a half in IT support and QA Testing, and before that I read Computer Science at the University of Birmingham.
 
 Most of what's here is project work, in the order I built it.
 
