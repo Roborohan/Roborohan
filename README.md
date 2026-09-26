@@ -6,6 +6,25 @@ Most of what's here is project work, in the order I built it.
 
 ---
 
+### 🎬 Beyond the Crowd Score — predicting one viewer's film ratings
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+*September 2026 · [Roborohan/Letterboxd-Regression-Capstone](https://github.com/Roborohan/Letterboxd-Regression-Capstone) · [live app](https://beyond-the-crowd-score.streamlit.app/)*
+
+My capstone. Almost five years of my own Letterboxd ratings — 1,192 of them — enriched with TMDB metadata, to ask whether a model can predict what one person will think of a film better than the crowd score can, and say why.
+
+The model is built up in layers, each knowing a little more: a constant, the crowd score alone, the film's details, my viewing history, then plot keywords. Tested on the 239 most recent films, held out by date so it never learns from my future, the final random forest is 0.111★ closer than the crowd score (95% CI 0.059–0.166) and ranks films nearly twice as well — while the crowd score on its own barely beats guessing the same rating every time. Because a forest's prediction is a weighted average of the films it learned from, the app can show which of my rated films each prediction leaned on.
+
+The most useful result was the one that didn't flatter me. I packaged the steps into a pipeline and ran it on two friends' exports: one agrees with the crowd more than I do and gains nothing, and the other's gain can't be resolved on 426 films. Three people, three answers — the pipeline travels, the finding is one person's. The review text I spent real time on added nothing either.
+
+A solo project: data collection and TMDB matching, the modelling, the portable pipeline, and the four-page Streamlit app.
+
+---
+
 ### 📞 Swan Teleco — churn prediction and customer risk scoring
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
