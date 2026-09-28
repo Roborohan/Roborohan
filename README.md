@@ -12,6 +12,7 @@ Most of what's here is project work, in the order I built it.
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat&logo=firebase&logoColor=black)
 
 *September 2026 · [Roborohan/Letterboxd-Regression-Capstone](https://github.com/Roborohan/Letterboxd-Regression-Capstone) · [live app](https://beyond-the-crowd-score.streamlit.app/)*
 
@@ -21,7 +22,9 @@ The model is built up in layers, each knowing a little more: a constant, the cro
 
 The most useful result was the one that didn't flatter me. I packaged the steps into a pipeline and ran it on two friends' exports: one agrees with the crowd more than I do and gains nothing, and the other's gain can't be resolved on 426 films. Three people, three answers — the pipeline travels, the finding is one person's. The review text I spent real time on added nothing either.
 
-A solo project: data collection and TMDB matching, the modelling, the portable pipeline, and the four-page Streamlit app.
+That's why the app now lets anyone find out for themselves. Upload a Letterboxd export and the same pipeline runs on it in the background — TMDB matching, the full model ladder and its test against the crowd, the watchlist — usually in a few minutes, and every page of the app then shows your own films. It's one pipeline serving two front ends: the command line writes files, the app queues uploads and keeps results in Firestore under a private link. The export itself is never stored, results are deleted after 90 days unused, and film lookups go through a cache every upload shares, so each new one only fetches the films nobody has uploaded before.
+
+A solo project: data collection and TMDB matching, the modelling, the portable pipeline, the Streamlit app, and the upload service behind it.
 
 ---
 
